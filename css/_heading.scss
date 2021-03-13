@@ -1,0 +1,33 @@
+header {
+  display: flex;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    li {
+      display: flex;
+      float: left;
+      background-color: #0c71c3;
+      height: 30px;
+      width: 20%;
+      border-left: 1px solid black;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        background-color: lightblue;
+      }
+      a {
+        padding: 14px 16px;
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
