@@ -5,66 +5,54 @@
   margin: 0;
 }
 
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.nav {
+  width: 100%;
 }
 
-header ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+img {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
 }
 
-header ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  float: left;
-  background-color: #0c71c3;
-  height: 30px;
-  width: 20%;
-  border-left: 1px solid black;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+ul {
+  float: right;
 }
 
-header ul li:hover {
-  background-color: lightblue;
+li {
+  display: inline;
 }
 
-header ul li a {
-  padding: 14px 16px;
+li a {
   text-decoration: none;
   color: black;
+  font-size: 14px;
+  margin: 10px;
+}
+
+li a:hover {
+  color: #0c71c3;
+  border-bottom: 2px solid #0c71c3;
+}
+
+body {
+  background-color: white;
 }
 
 #mainContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 70%;
+  width: 90%;
   height: 100%;
-  background-color: lightgray;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin: 30px auto;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  border: 1px solid white;
+  border-radius: 10px;
 }
 
 .content {
@@ -73,11 +61,25 @@ header ul li a {
   display: flex;
   width: 350px;
   height: 350px;
-  background-color: blue;
+  background-color: lightgrey;
   margin: 10px;
   border-radius: 10px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+#bott {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#bott p {
+  padding-right: 20px;
 }
 /*# sourceMappingURL=style.css.map */
