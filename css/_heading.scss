@@ -5,14 +5,16 @@ header {
 
   .logo {
     position: absolute;
-    left: 500px;
+    left: 380px;
     top: 10px;
-    width: 70px;
-    height: 70px;
+    width: 72px;
+    height: 53px;
   }
 
   ul {
-    float: right;
+    position: absolute;
+    right: 280px;
+    top: 30px;
   }
   li {
     display: inline;
@@ -20,8 +22,9 @@ header {
     a {
       text-decoration: none;
       color: black;
-      font-size: 20px;
+      font-size: 18px;
       margin: 10px;
+      font-family: "Montserrat", sans-serif;
 
       &:hover {
         color: #0c71c3;

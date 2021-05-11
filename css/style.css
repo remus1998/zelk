@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -12,14 +13,16 @@ header {
 
 header .logo {
   position: absolute;
-  left: 500px;
+  left: 380px;
   top: 10px;
-  width: 70px;
-  height: 70px;
+  width: 72px;
+  height: 53px;
 }
 
 header ul {
-  float: right;
+  position: absolute;
+  right: 280px;
+  top: 30px;
 }
 
 header li {
@@ -29,8 +32,9 @@ header li {
 header li a {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
   margin: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 
 header li a:hover {
@@ -46,9 +50,7 @@ body {
 }
 
 .mainlogo {
-  width: 1920px;
-  height: 650px;
-  margin-top: 40px;
+  width: 100%;
 }
 
 .secondlogo {
@@ -57,8 +59,10 @@ body {
 
 .title {
   position: absolute;
-  top: 100px;
-  left: 550px;
+  top: 120px;
+  left: 380px;
+  font-size: 38px;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.5px;
 }
 
@@ -82,14 +86,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  width: 400px;
+  width: 500px;
   height: 200px;
-  left: 680px;
+  left: 380px;
   top: 280px;
-  line-height: 200%;
+  line-height: 150%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
 }
 
 #mainContainer .nvg-container {
@@ -136,17 +141,69 @@ body {
   display: none;
 }
 
-#bott {
+#mainContainer .alert {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: transparent;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  position: absolute;
+  bottom: -180px;
+  width: 80%;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.95);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  font-family: "Montserrat", sans-serif;
 }
 
-#bott p {
-  padding-right: 20px;
+#mainContainer .alert h4 {
+  font-size: 22px;
+  margin: 0 auto;
+}
+
+#mainContainer .alert p {
+  font-size: 18px;
+  position: absolute;
+  top: 40px;
+  left: 180px;
+  color: #67a5d9;
+}
+
+#mainContainer .alertcontent::before {
+  content: "Amennyiben gondjuk, problémájuk adódik a Kréta rendszerbe való belépéssel ezen az e-mail címen jelezzék: ";
+  color: black;
+}
+
+.bottcontainer {
+  width: 100%;
+  height: 200px;
+  background-color: #f7fafc;
+}
+
+.bottcontainer .footerlogo {
+  width: 90px;
+  height: 90px;
+}
+
+.bottcontainer .bottcontent {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.bottcontainer .bottcontent .footerh {
+  position: absolute;
+  left: 300px;
+  bottom: -360px;
+}
+
+.bottcontainer .bottcontent .mail {
+  color: #67a5d9;
+}
+
+.bottcontainer .bottcontent .mail::before {
+  content: " E-mail: ";
+  font-weight: 700;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

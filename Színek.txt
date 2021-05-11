@@ -4,6 +4,9 @@
 #46c2dc Kék
 #ffaa11 narancs
 
+kenyérszöveg betűméret: 34px
+minden más 18px
+
 
 "A gyerek feje nem edény,amit meg kell tölteni, hanem fáklya, amit lángra kell lobbantani."
 (Galileo Galilei)
