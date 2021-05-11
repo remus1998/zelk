@@ -5,45 +5,68 @@
   margin: 0;
 }
 
-.nav {
+header {
   width: 100%;
+  height: 30px;
 }
 
-img {
+header .logo {
+  position: absolute;
+  left: 500px;
+  top: 10px;
   width: 70px;
   height: 70px;
-  cursor: pointer;
 }
 
-ul {
+header ul {
   float: right;
 }
 
-li {
+header li {
   display: inline;
 }
 
-li a {
+header li a {
   text-decoration: none;
   color: black;
-  font-size: 14px;
+  font-size: 20px;
   margin: 10px;
 }
 
-li a:hover {
+header li a:hover {
   color: #0c71c3;
   border-bottom: 2px solid #0c71c3;
+  font-weight: 700;
 }
 
 body {
   background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.mainlogo {
+  width: 1920px;
+  height: 650px;
+  margin-top: 40px;
+}
+
+.secondlogo {
+  width: 1900px;
+}
+
+.title {
+  position: absolute;
+  top: 100px;
+  left: 550px;
+  letter-spacing: 0.5px;
 }
 
 #mainContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 90%;
+  width: 100%;
   height: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -51,22 +74,66 @@ body {
   margin: 30px auto;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border: 1px solid white;
   border-radius: 10px;
 }
 
-.content {
+#mainContainer .qcontainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 350px;
-  height: 350px;
-  background-color: lightgrey;
-  margin: 10px;
-  border-radius: 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  left: 680px;
+  top: 280px;
+  line-height: 200%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 24px;
+}
+
+#mainContainer .nvg-container {
+  margin-top: 50px;
+  width: 1000px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#mainContainer .nvg-container a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: 800;
+  margin-left: 10px;
+}
+
+#mainContainer .nvg-container .nvg1 a:hover {
+  color: #b6cd58;
+  border-bottom: 2px solid #b6cd58;
+}
+
+#mainContainer .nvg-container .nvg2 a:hover {
+  color: #ffaa11;
+  border-bottom: 2px solid #ffaa11;
+}
+
+#mainContainer .nvg-container .nvg3 a:hover {
+  color: #d75557;
+  border-bottom: 2px solid #d75557;
+}
+
+#mainContainer .nvg-container .nvg4 a:hover {
+  color: #46c2dc;
+  border-bottom: 2px solid #46c2dc;
+}
+
+#mainContainer .textcontent {
+  display: none;
 }
 
 #bott {

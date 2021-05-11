@@ -1,0 +1,9 @@
+
+#d75557 piros
+#b6cd58 zöld
+#46c2dc Kék
+#ffaa11 narancs
+
+
+"A gyerek feje nem edény,amit meg kell tölteni, hanem fáklya, amit lángra kell lobbantani."
+(Galileo Galilei)
