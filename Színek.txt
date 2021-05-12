@@ -8,5 +8,59 @@ kenyérszöveg betűméret: 34px
 minden más 18px
 
 
+Tisztelt szülőknél a szöveget lentebb hogy középen legyen
+
 "A gyerek feje nem edény,amit meg kell tölteni, hanem fáklya, amit lángra kell lobbantani."
 (Galileo Galilei)
+
+Tájékoztató az iskolai étkezésről 2021/2022.tanévre
+
+Tisztelt Szülők!
+Kérjük, hogy a 2021/2022. tanévre vonatkozó, az étkezés igényléséhez szükséges nyomtatványokat kitöltve május 20-ig jutassák el az iskolába.Ez csak a következő tanév 2-8.évfolyamára vonatkozik. A leendő első osztályosok más rendszerben fogják elküldeni a nyomtatványokat.
+A kitöltött nyomtatványokat a portán elhelyezett gyűjtődobozba kérjük bedobni! Szeptember 1-jétől azok a tanulok vehetik igénybe az étkezést, akik az étkezési igényüket az adott nyomtatványon határidőn belül leadják.
+Természetesen szeptemberben is lesz lehetőség az étkezési igényt leadni vagy változtatni, de ennek van egy átfutási ideje,míg a gyerek igénybe veheti a kívánt étkezést.
+
+Általános Tájékoztató
+Nyilatkozat alsó tagozat
+Nyilatkozat felső tagozat
+Ingyenes vagy kedvezményes étkezés igénybevételéhez szükséges nyomtatvány
+Diétás étkezés igénybevételéhez szükséges nyomtatvány
+
+
+Hírek
+
+Fontos! - Covid Hírek
+
+Járványügyi intézkedési terv
+
+Igazolt Covid-19 fertőzött gyerek száma: 1
+Igazolt Covid-19 fertőzött iskolai dolgozók száma: 0
+
+Zelk promóciós film
+
+Hit és erkölcstan oktatás
+Zsidó hit és erkölcstan oktatás
+
+// footer felé
+Az ISKOLA TELEFONOS ELÉRHETŐSÉGE:
+Titkárság: 0642-512826
+Gazdasági iroda: 06-1766341
+
+Kérjük Önöket, hogy az étkezéssel kapcsolatban csak ezen a számon keressék a kolléganőt, minden más esetben a titkárságot szíveskedjenek hívni.
+Köszönjük!
+
+Kedves résznél//
+
+linehight rakni hogy ne legyen összetett a szöveg
+
+
+///////// Foooter /////
+halvány kék border top hogy látható legyen a footer rész
+
+/////////////////// SWIPERHEZ ///////////////////
+a nyíl legyen fekete  /done
+
+
+az biztos hogy ugyan olyan méretű képek nem lesznek 😃
+ezért adj meg egy téglalap méretet amit mindig használsz a képek mutatásához (ha lehet ilyet programozni)
+
