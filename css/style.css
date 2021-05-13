@@ -134,6 +134,13 @@ header ul li .dropdown4 li {
   margin: 10px;
 }
 
+header ul li .dropdown li a,
+header ul li .dropdown2 li a,
+header ul li .dropdown3 li a,
+header ul li .dropdown4 li a {
+  font-size: 15px;
+}
+
 header ul li .dropdown2 {
   left: 400px;
 }
