@@ -3,7 +3,7 @@ function pageLoad(){
   const swiper = new Swiper('.swiper-container', {
     // Optional parameters
     slidesPerView: 3,
-    spaceBetween: 30,
+    spaceBetween: 25,
     direction: 'horizontal',
     loop: true,
   

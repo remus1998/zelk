@@ -27,6 +27,25 @@
   align-items: center;
 }
 
+.moretext {
+  position: absolute;
+  bottom: 50px;
+  width: 80%;
+  height: 5%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: white;
+  border-bottom-left-radius: 6%;
+  border-bottom-right-radius: 6%;
+}
+
+.moretext p {
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: 900;
+}
+
 .swiper-slide img {
   display: block;
   width: 80%;
@@ -56,7 +75,7 @@ header {
 
 header .logo {
   position: absolute;
-  left: 380px;
+  left: 330px;
   top: 10px;
   width: 72px;
   height: 53px;
@@ -64,7 +83,7 @@ header .logo {
 
 header ul {
   position: absolute;
-  right: 280px;
+  right: 330px;
   top: 30px;
 }
 
@@ -104,7 +123,7 @@ body {
 .title {
   position: absolute;
   top: 120px;
-  left: 380px;
+  left: 330px;
   font-size: 38px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.5px;
@@ -132,7 +151,7 @@ body {
   position: absolute;
   width: 500px;
   height: 200px;
-  left: 380px;
+  left: 330px;
   top: 280px;
   line-height: 150%;
   -ms-flex-wrap: wrap;
@@ -143,8 +162,8 @@ body {
 
 #mainContainer .nvg-container {
   margin-top: 50px;
-  width: 1000px;
-  height: 200px;
+  width: 60%;
+  height: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,6 +173,8 @@ body {
 }
 
 #mainContainer .nvg-container a {
+  position: absolute;
+  top: 825px;
   text-decoration: none;
   color: black;
   font-size: 25px;
@@ -183,7 +204,7 @@ body {
 
 #mainContainer .textcontent {
   width: 80%;
-  height: 500px;
+  height: 650px;
   margin-bottom: 40px;
 }
 
@@ -201,10 +222,16 @@ body {
   color: #0c71c3;
 }
 
+#mainContainer .textcontent .logos {
+  position: absolute;
+  left: 145px;
+}
+
 #mainContainer .textcontent .main {
   float: left;
   font-size: 20px;
   margin-bottom: 20px;
+  line-height: 200%;
 }
 
 #mainContainer .alert {
@@ -212,7 +239,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  bottom: -700px;
+  bottom: -825px;
   width: 80%;
   height: 100px;
   background: rgba(255, 255, 255, 0.95);
@@ -229,8 +256,8 @@ body {
 #mainContainer .alert p {
   font-size: 18px;
   position: absolute;
-  top: 40px;
-  left: 180px;
+  top: 45px;
+  left: 165px;
   color: #67a5d9;
 }
 
@@ -241,6 +268,11 @@ body {
 
 #mainContainer .news {
   width: 80%;
+}
+
+#mainContainer .news .newslogo {
+  position: absolute;
+  left: 145px;
 }
 
 #mainContainer .news h2 {
@@ -268,15 +300,37 @@ body {
   font-size: 34px;
 }
 
+#mainContainer .address {
+  position: absolute;
+  bottom: -2160px;
+  width: 80%;
+  height: 200px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#mainContainer .address h2 {
+  color: #0c71c3;
+  font-size: 22px;
+}
+
+#mainContainer .address p {
+  font-size: 18px;
+}
+
 .bottcontainer {
   width: 100%;
-  height: 200px;
+  height: 250px;
+  position: absolute;
   background-color: #f7fafc;
+  border-top: 3px solid #0c71c3;
+  bottom: -2460px;
 }
 
 .bottcontainer .footerlogo {
   width: 90px;
-  height: 90px;
+  height: 80px;
+  margin-top: 10px;
 }
 
 .bottcontainer .bottcontent {
@@ -288,16 +342,21 @@ body {
 .bottcontainer .bottcontent .footerh {
   position: absolute;
   left: 300px;
-  bottom: -1820px;
+  bottom: 155px;
 }
 
 .bottcontainer .bottcontent .mail {
   color: #67a5d9;
+  margin-bottom: 15px;
 }
 
 .bottcontainer .bottcontent .mail::before {
   content: " E-mail: ";
   font-weight: 700;
   color: black;
+}
+
+.bottcontainer .bottcontent p {
+  margin-top: 15px;
 }
 /*# sourceMappingURL=style.css.map */
