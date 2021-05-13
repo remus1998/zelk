@@ -14,7 +14,7 @@ header {
   ul {
     position: absolute;
     right: 330px;
-    top: 30px;
+    top: 15px;
 
     li {
       display: inline;
@@ -32,9 +32,9 @@ header {
         font-family: "Montserrat", sans-serif;
 
         &:hover {
-          color: #ff8b35;
-          border-bottom: 2px solid #ff8b35;
-          font-weight: 700;
+          color: #0c71c3; //  #ff8b35 narancs
+          border-bottom: 2px solid #0c71c3;
+          //@at-root: 700;
         }
       }
       .dropdown,
@@ -46,28 +46,31 @@ header {
         position: absolute;
         z-index: 999;
         left: 85px;
-        background: lightgray;
+        top: 30px;
+        background: #0c71c3;
         margin-top: 0.3rem;
         transition: all 0.5s ease;
 
         li {
           display: block;
           clear: both;
-          margin: 10px;
+          margin: 1px;
 
           a {
             font-size: 15px;
+            border: none;
+            color: white;
           }
         }
       }
       .dropdown2 {
-        left: 400px;
+        left: 385px;
       }
       .dropdown3 {
         left: 550px;
       }
       .dropdown4 {
-        left: 800px;
+        left: 835px;
       }
     }
   }

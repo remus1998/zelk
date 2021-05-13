@@ -27,14 +27,17 @@
 .moretext {
   position: absolute;
   bottom: 50px;
+  display: none;
   width: 80%;
-  height: 5%; //10 az eredeti... ránézni....
+  height: 10%; //10 az eredeti... ránézni....
   justify-content: flex-end;
   background-color: white;
-  border-bottom-left-radius: 6%;
-  border-bottom-right-radius: 6%;
+  //border-bottom-left-radius: 8%;
+  //border-bottom-right-radius: 8%;
   //box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   p {
+    position: absolute;
+    top: 20px;
     margin: 0 auto;
     font-size: 22px;
     font-weight: 900;

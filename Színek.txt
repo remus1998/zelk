@@ -61,6 +61,14 @@ halvány kék border top hogy látható legyen a footer rész
 a nyíl legyen fekete  /done
 
 
+//// MA ///
+
+NAVBAR MARGINT NAGYOBBRA
+
+képnél a szöveg teljesen középen legyen
+
+menü: egyvonalba legyen a főmenüvel a szövege
+
 az biztos hogy ugyan olyan méretű képek nem lesznek 😃
 ezért adj meg egy téglalap méretet amit mindig használsz a képek mutatásához (ha lehet ilyet programozni)
 
