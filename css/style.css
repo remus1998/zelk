@@ -87,11 +87,16 @@ header ul {
   top: 30px;
 }
 
-header li {
+header ul li {
   display: inline;
 }
 
-header li a {
+header ul li:hover ul {
+  display: block;
+}
+
+header ul li a {
+  display: inline-block;
   text-decoration: none;
   color: black;
   font-size: 18px;
@@ -99,10 +104,46 @@ header li a {
   font-family: "Montserrat", sans-serif;
 }
 
-header li a:hover {
+header ul li a:hover {
   color: #ff8b35;
   border-bottom: 2px solid #ff8b35;
   font-weight: 700;
+}
+
+header ul li .dropdown,
+header ul li .dropdown2,
+header ul li .dropdown3,
+header ul li .dropdown4 {
+  width: 20%;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 85px;
+  background: lightgray;
+  margin-top: 0.3rem;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+header ul li .dropdown li,
+header ul li .dropdown2 li,
+header ul li .dropdown3 li,
+header ul li .dropdown4 li {
+  display: block;
+  clear: both;
+  margin: 10px;
+}
+
+header ul li .dropdown2 {
+  left: 400px;
+}
+
+header ul li .dropdown3 {
+  left: 550px;
+}
+
+header ul li .dropdown4 {
+  left: 800px;
 }
 
 body {
@@ -118,6 +159,8 @@ body {
 
 .secondlogo {
   width: 1900px;
+  position: absolute;
+  bottom: -900px;
 }
 
 .title {
@@ -161,6 +204,9 @@ body {
 }
 
 #mainContainer .nvg-container {
+  position: absolute;
+  left: 330px;
+  top: 800px;
   margin-top: 50px;
   width: 60%;
   height: 150px;
@@ -174,7 +220,7 @@ body {
 
 #mainContainer .nvg-container a {
   position: absolute;
-  top: 825px;
+  top: 10px;
   text-decoration: none;
   color: black;
   font-size: 25px;
@@ -203,6 +249,9 @@ body {
 }
 
 #mainContainer .textcontent {
+  position: absolute;
+  top: 1000px;
+  left: 190px;
   width: 80%;
   height: 650px;
   margin-bottom: 40px;
@@ -224,7 +273,7 @@ body {
 
 #mainContainer .textcontent .logos {
   position: absolute;
-  left: 145px;
+  left: -50px;
 }
 
 #mainContainer .textcontent .main {
@@ -246,6 +295,7 @@ body {
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   border-radius: 6px;
+  z-index: 999;
 }
 
 #mainContainer .alert h4 {
@@ -268,11 +318,14 @@ body {
 
 #mainContainer .news {
   width: 80%;
+  position: absolute;
+  bottom: -1300px;
+  left: 190px;
 }
 
 #mainContainer .news .newslogo {
   position: absolute;
-  left: 145px;
+  left: -50px;
 }
 
 #mainContainer .news h2 {
@@ -291,6 +344,8 @@ body {
 }
 
 #mainContainer .Plister {
+  position: absolute;
+  bottom: -1900px;
   width: 80%;
   height: 500px;
 }
@@ -322,7 +377,7 @@ body {
   width: 100%;
   height: 250px;
   position: absolute;
-  background-color: #f7fafc;
+  background-color: #bec2c6;
   border-top: 3px solid #0c71c3;
   bottom: -2460px;
 }

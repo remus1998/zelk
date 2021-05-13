@@ -15,21 +15,55 @@ header {
     position: absolute;
     right: 330px;
     top: 30px;
-  }
-  li {
-    display: inline;
 
-    a {
-      text-decoration: none;
-      color: black;
-      font-size: 18px;
-      margin: 10px;
-      font-family: "Montserrat", sans-serif;
+    li {
+      display: inline;
 
-      &:hover {
-        color: #ff8b35;
-        border-bottom: 2px solid #ff8b35;
-        font-weight: 700;
+      &:hover ul {
+        display: block;
+      }
+
+      a {
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        margin: 10px;
+        font-family: "Montserrat", sans-serif;
+
+        &:hover {
+          color: #ff8b35;
+          border-bottom: 2px solid #ff8b35;
+          font-weight: 700;
+        }
+      }
+      .dropdown,
+      .dropdown2,
+      .dropdown3,
+      .dropdown4 {
+        width: 20%;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 85px;
+        background: lightgray;
+        margin-top: 0.3rem;
+        transition: all 0.5s ease;
+
+        li {
+          display: block;
+          clear: both;
+          margin: 10px;
+        }
+      }
+      .dropdown2 {
+        left: 400px;
+      }
+      .dropdown3 {
+        left: 550px;
+      }
+      .dropdown4 {
+        left: 800px;
       }
     }
   }
